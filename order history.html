@@ -17,19 +17,21 @@
 
 <body>
 
-    <section class="backcolor_black border_bottom">
-        <!-- only mobile display currency and language -->
+   
+    <!-- navbar -->
+    <section class="backcolor_black">
+        <!-- mobile display currency and language -->
         <div class="container-fluid border_bottom">
             <div class="row ">
                 <div class="col-3"></div>
                 <!-- currency -->
                 <div class="col-3 d-lg-none d-md-block list_style_type">
-                    <li class="nav-item dropdown float_end">
-                        <a class="nav-link dropdown-toggle color_Gray" href="#" role="button" data-bs-toggle="dropdown"
+                    <li class="nav-item dropdown float_end m-0">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             $ Currency
                         </a>
-                        <ul class="dropdown-menu mt-4">
+                        <ul class="dropdown-menu mt-1">
                             <li><a class="dropdown-item" href="#">&#8364;Euro</a></li>
                             <li><a class="dropdown-item" href="#">&#163;Pound sterling</a></li>
 
@@ -39,13 +41,13 @@
                 </div>
                 <!-- currency -->
                 <!-- language -->
-                <div class="col-3 d-lg-none d-md-block list_style_type">
-                    <li class="nav-item dropdown float_start">
-                        <a class="nav-link dropdown-toggle color_Gray" href="#" role="button" data-bs-toggle="dropdown"
+                <div class="col-3 d-lg-none d-md-block list_style_type border_left">
+                    <li class="nav-item dropdown float_start m-0">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <img src="assit/india.png" width="30px" alt=""> Language
                         </a>
-                        <ul class="dropdown-menu mt-4">
+                        <ul class="dropdown-menu m-0">
                             <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px" alt="">
                                     India</a></li>
                             <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px" alt="">
@@ -62,73 +64,413 @@
 
             </div>
         </div>
-        <!-- only mobile display currency and language -->
+        <!--mobile display currency and language -->
 
-        <!-- large display currency and language and logo icon -->
-        <div class="container">
-            <div class="row p-3 text-white text-center align_items_center">
-                <!-- currency & language -->
-                <div class="col-lg-4 navbar navbar-expand-lg ">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 d-none d-lg-block d-xl-block list_style_type">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle color_white" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    $ Currency
-                                </a>
-                                <ul class="dropdown-menu mt-4">
-                                    <li><a class="dropdown-item" href="#">&#8364;Euro</a></li>
-                                    <li><a class="dropdown-item" href="#">&#163;Pound sterling</a></li>
+        <!-- mobile display  menu & logo & icon -->
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center">
+                <!-- menu section -->
+                <div class="col-3 d-lg-none d-block">
+                    <button class="btn text-white" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+                            class="fa-solid fa-bars font_size_30"></i></button>
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop"
+                        aria-labelledby="offcanvasTopLabel" style="top: 89px;">
+                        <div class="offcanvas-body">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Azulejo
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse h-100"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <h6>PETUNTSE</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
 
-                                    <li><a class="dropdown-item" href="#">$ US Dollar</a></li>
-                                </ul>
-                            </li>
-                        </div>
-                        <div class="col-lg-6 col-md-6 d-none d-lg-block d-xl-block list_style_type">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle color_white" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src="assit/india.png" width="30px" alt=""> Language
-                                </a>
-                                <ul class="dropdown-menu mt-4">
-                                    <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
-                                                alt=""> India</a></li>
-                                    <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
-                                                alt=""> India</a></li>
-                                    <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
-                                                alt=""> India</a></li>
+                                            </div>
+                                            <div>
+                                                <h6>VINOGEL</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
 
-                                </ul>
-                            </li>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                            </div>
+                                            <div>
+                                                <h6>NILE SILT</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                    China</a></p>
+                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                            China</a></p>
+                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                China</a></p>
+                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                    China</a></p>
+                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                        China</a></p>
+                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                            China</a></p>
+                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                China</a></p>
+                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                    China</a></p>
+                                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                        China</a></p>
+                                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                            China</a></p>
+                                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                China</a></p>
+                                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                    China</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Azulejo
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse h-100"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <h6>PETUNTSE</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+
+                                            </div>
+                                            <div>
+                                                <h6>VINOGEL</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                            </div>
+                                            <div>
+                                                <h6>NILE SILT</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                    China</a></p>
+                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                            China</a></p>
+                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                China</a></p>
+                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                    China</a></p>
+                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                        China</a></p>
+                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                            China</a></p>
+                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                China</a></p>
+                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                    China</a></p>
+                                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                        China</a></p>
+                                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                            China</a></p>
+                                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                China</a></p>
+                                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                    China</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Azulejo
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse h-100"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <h6>PETUNTSE</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+
+                                            </div>
+                                            <div>
+                                                <h6>VINOGEL</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                <p style="list-style-type: none;"><a href="#"
+                                                        class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                            </div>
+                                            <div>
+                                                <h6>NILE SILT</h6>
+                                                <hr>
+                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                    China</a></p>
+                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                        China</a></p>
+                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                            China</a></p>
+                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                China</a></p>
+                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                    China</a></p>
+                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                        China</a></p>
+                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                            China</a></p>
+                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                China</a></p>
+                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                    China</a></p>
+                                                                                    <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                        China</a></p>
+                                                                                        <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                            China</a></p>
+                                                                                            <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                China</a></p>
+                                                                                                <p style="list-style-type: none;"><a href="#" class="color_Gray text-black">Bone
+                                                                                                    China</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                   <div class="m-3">
+                                    <span style="list-style-type: none;"><a href="#"
+                                        class="color_Gray text-black">Clothes
+                                        </a></span><br>
+                                        <span style="list-style-type: none;"><a href="#"
+                                            class="color_Gray text-black">Jacket
+                                            </a></span><br>
+                                            <span style="list-style-type: none;"><a href="#"
+                                                class="color_Gray text-black">Blogs
+                                                </a></span>
+                                   </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- currency & language -->
-                <!-- logo -->
-                <div class="col-lg-4 d-none  d-lg-block">
-                    <img src="assit/logo.png" alt="logo">
+                <!-- menu section -->
+                <!-- logo  -->
+                <div class="col-6 d-lg-none d-block">
+                    <span><a href="index.html"><img src="assit/logo.png" width="150px" alt="logo"></a></span>
                 </div>
-                <!-- logo -->
-                <!-- login and cart icon -->
-                <div class="col-lg-4 d-none d-lg-block">
-                    <div class="row align_items_center" style="float: inline-end; font-size: 20px;">
-                        <div class="col-lg-2 m-3">
+                <!-- logo  -->
+                <!-- icon Section search & login & cart -->
+                <div class="col-3 d-lg-none d-block" style="text-align: end;">
+                    <div class="row float_end ">
+                        <div class="col-2">
                             <div class="align_items_center">
-                                <button type="button " class="btn color_yellow" data-bs-toggle="modal"
+                                <button type="button " class="btn text-white" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal">
-                                    <i style="font-size: 20px;" class="fa fa-search text-white"></i>
+                                    <i style="font-size: 15px;" class="fa fa-search color_yellowhover p-0"></i>
                                 </button>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal">
                                     <div class="modal-dialog" style="width: 300px;">
-                                        <div class="modal-content" style="left: 353px;
-                                        top: 74px; border-top: 2px solid rgb(231, 169, 14);">
+                                        <div class="modal-content" style="left: 100px;
+                                        top: 60px; border-top: 2px solid rgb(231, 169, 14);">
                                             <div class="modal-header  border-0">
                                                 <div class="input-group">
                                                     <input type="text" class="form-control border-0"
-                                                        placeholder="Search ......" aria-label="Recipient's username">
+                                                        placeholder="Search ......" name="text"
+                                                        aria-label="Recipient's username">
                                                     <button class="bg-white border-0"><i
-                                                            class="fa fa-search"></i></button>
+                                                            class="fa fa-search color_yellowhover"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -137,198 +479,285 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-2 align_items_center text-center m-1">
-                            <a href="#"><i class="fa-solid fa-user-tie text-white"></i></a>
-                        </div>
-                        <div class="col-lg-2   align_items_center text-center">
-                            <a class="color_yellow" href="#"><i class="fa-solid fa-cart-plus text-white "></i></a>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- login and cart icon -->
-            </div>
-        </div>
-        <!-- large display currency and language and logo icon -->
-
-        <!-- mobile display  menu & logo & icon -->
-        <div class="container-fluid">
-            <div class="row text-center">
-                <!-- menu section -->
-                <div class="col-md-4 col-sm-4 d-lg-none d-block">
-
-                </div>
-                <!-- menu section -->
-                <!-- logo  -->
-                <div class="col-md-4 col-sm-4 d-lg-none d-block">
-                    <img src="assit/logo.png" alt="logo">
-                </div>
-                <!-- logo  -->
-                <!-- icon Section search & login & cart -->
-                <div class="col-md-4 col-sm-4 d-lg-none d-block">
-                    <div class="row align_items_center">
-                        <div class="col-6"></div>
                         <div class="col-2">
-                            <button type="button " class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <i class="fa fa-search text-white"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModal">
-                                <div class="modal-dialog" style="width: 300px;">
-                                    <div class="modal-content">
-                                        <div class="modal-header  border-0 p-1">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control border-0"
-                                                    placeholder="Search ......" aria-label="Recipient's username">
-                                                <button class="bg-white border-0 pr-3"><i
-                                                        class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="btn-group ">
+                                <button class="btn text-white " type="button" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="text-white" href="#"><i
+                                            class="fa-solid fa-user-tie color_yellowhover"></i></a>
+                                </button>
+                                <ul class="dropdown-menu mt-1" aria-labelledby="dropdownMenuButton"
+                                    style="border-top: 4px solid rgb(196, 168, 13);">
+                                    <a class="dropdown-item" href="Login.html"><i
+                                            class="fa-solid fa-lock color_Gray"></i>&nbsp; Login</a>
+                                    <a class="dropdown-item" href="register.html"><i
+                                            class="fa-solid fa-user-tie color_Gray"></i> &nbsp; Register</a>
+                                    <a class="dropdown-item" href="wish List.html"><i
+                                            class="fa-solid fa-heart color_Gray "></i> &nbsp;Wish List (0)</a>
+                                </ul>
                             </div>
-
-                        </div>
-                        <div class="col-2 align_items_center">
-                            <i class="fa-solid fa-user-tie text-white text-center "></i>
                         </div>
                         <div class="col-2">
-                            <i class="fa-solid fa-cart-plus text-white"></i>
+                            <div class="btn-group ">
+                                <button class="btn text-white " type="button" id="dropdownMenuButton"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="text-white" href="#"><i
+                                            class="fa-solid fa-cart-plus color_yellowhover"></i></a>
+                                </button>
+                                <ul class="dropdown-menu mt-1" aria-labelledby="dropdownMenuButton"
+                                    style="width: 300px; height: 60px; border-top: 4px solid rgb(196, 168, 13);">
+                                    <span class="color_Gray"> <a href="#" class="text-black"> &nbsp; Your shopping cart
+                                            is empty!</a></span>
+                                </ul>
+                            </div>
                         </div>
-
                     </div>
                 </div>
                 <!-- icon Section search & login & cart -->
-
-
             </div>
         </div>
         <!-- mobile display menu & logo & icon -->
 
+        <!-- large display currency and language and logo icon -->
+        <section class="border_bottom">
+            <div class="container ">
+                <div class="row  text-center align_items_center">
+                    <!-- currency & language -->
+                    <div class="col-lg-3 d-none d-lg-block  ">
+                        <div class="row align_items_center" style="float: inline-start; ">
+                            <div class="col-lg-6 d-none d-lg-block d-xl-block list_style_type">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white p-0" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        $ Currency
+                                    </a>
+                                    <ul class="dropdown-menu mt-2">
+                                        <li><a class="dropdown-item" href="#">&#8364;Euro</a></li>
+                                        <li><a class="dropdown-item" href="#">&#163;Pound sterling</a></li>
 
+                                        <li><a class="dropdown-item" href="#">$ US Dollar</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block d-xl-block list_style_type">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white p-0" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assit/india.png" width="30px" alt=""> Language
+                                    </a>
+                                    <ul class="dropdown-menu mt-1">
+                                        <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
+                                                    alt=""> India</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
+                                                    alt=""> India</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="assit/india.png" width="33px"
+                                                    alt=""> India</a></li>
 
-
-    </section>
-    <!-- menu Dropdown large display -->
-    <section class="backcolor_black border_bottom text-center">
-        <div class="container d-none d-lg-block">
-            <div class="row ">
-                <div class="col-lg-3"></div>
-                <div class="col-1 m-2">
-                    <div class="menu-wrap">
-                        <ul class="menu">
-                            <li class="menu-item">
-                                <a href="#">AZULEJO</a>
-                                <div class="row">
-                                    <div class="col-6">
-                                        <ul class="drop-menu">
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page </a>
-                                            </li>
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page 2</a>
-                                            </li>
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page 3</a>
-                                            </li>
-                                        </ul>
+                                    </ul>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- currency & language -->
+                    <!-- logo -->
+                    <div class="col-lg-6 d-none  d-lg-block">
+                        <a class="p-0" href="index.html"> <img src="assit/logo.png" width="140" alt="logo"></a>
+                    </div>
+                    <!-- logo -->
+                    <!-- login and cart icon -->
+                    <div class="col-lg-3 d-none d-lg-block">
+                        <div class="row align_items_center" style="float: inline-end;">
+                            <div class="col-lg-2">
+                                <div class="align_items_center">
+                                    <button type="button " class="btn text-white" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModall">
+                                        <i style="font-size: 15px;" class="fa fa-search color_yellowhover"></i>
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade " id="exampleModall">
+                                        <div class="modal-dialog" style="width: 340px;">
+                                            <div class="modal-content" style="left: 303px;
+                                            top: 20px; border-top: 2px solid rgb(231, 169, 14);">
+                                                <div class="modal-header  border-0">
+                                                    <div class="input-group ">
+                                                        <input type="text" class="form-control border-0"
+                                                            placeholder="Search ......" name="text"
+                                                            aria-label="Recipient's username">
+                                                        <button class="bg-white border-0"><i
+                                                                class="fa fa-search color_yellowhover"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
-                                        <ul class="drop-menu">
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page </a>
-                                            </li>
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page 2</a>
-                                            </li>
-                                            <li class="drop-menu-item">
-                                                <a href="#">Page 3</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1 m-2">
-                    <div class="menu-wrap">
-                        <ul class="menu">
-                            <li class="menu-item">
-                                <a href="#">AZULEJO</a>
-                                <ul class="drop-menu">
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page </a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 2</a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1 m-2">
-                    <div class="menu-wrap">
-                        <ul class="menu">
-                            <li class="menu-item">
-                                <a href="#">AZULEJO</a>
-                                <ul class="drop-menu">
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page </a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 2</a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1 m-2">
-                    <div class="menu-wrap">
-                        <ul class="menu">
-                            <li class="menu-item">
-                                <a href="#">AZULEJO</a>
+                            </div>
+                            <div class="col-lg-2 align_items_center text-center m-1">
+                                <!-- <div class="btn-group ">
+                                            <button class="btn text-white " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <a class="text-white" href="#"><i
+                                                    class="fa-solid fa-user-tie color_yellowhover"></i></a>
+                                            </button>
+                                            <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton" style="border-top: 4px solid rgb(196, 168, 13);">
+                                            <a class="dropdown-item" href="Login.html"><i class="fa-solid fa-lock color_Gray"></i>&nbsp; Login</a>
+                                            <a class="dropdown-item" href="register.html"><i class="fa-solid fa-user-tie color_Gray"></i> &nbsp; Register</a>
+                                            <a class="dropdown-item" href="wish List.html"><i class="fa-solid fa-heart color_Gray "></i> &nbsp;Wish List (0)</a>
 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-1 m-2">
-                    <div class="menu-wrap">
-                        <ul class="menu">
-                            <li class="menu-item">
-                                <a href="#">AZULEJO</a>
-                                <ul class="drop-menu">
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page </a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 2</a>
-                                    </li>
-                                    <li class="drop-menu-item">
-                                        <a href="#">Page 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-3"></div>
 
+                                             
+                                            </ul>
+                                        </div> -->
+                                <div class="btn-group ">
+                                    <button class="btn text-white " type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="text-white" href="#"><i
+                                                class="fa-solid fa-user-tie color_yellowhover"></i></a>
+                                    </button>
+                                    <ul class="dropdown-menu mt-1" aria-labelledby="dropdownMenuButton"
+                                        style="border-top: 4px solid rgb(196, 168, 13);">
+                                        <a class="dropdown-item" href="my acconut.html"><i
+                                                class="fa-solid fa-user-tie color_Gray"></i> &nbsp;My Account</a>
+                                        <a class="dropdown-item" href="order history.html"><i
+                                                class="fa-regular fa-calendar color_Gray  "></i>&nbsp; Order History</a>
+                                        <a class="dropdown-item" href="your transactions.html"><i
+                                                class="fa-solid fa-window-maximize color_Gray"></i> &nbsp;
+                                            Transactions</a>
+                                        <a class="dropdown-item" href="Account Downloads.html"><i
+                                                class="fa-solid fa-download color_Gray"></i> &nbsp; Downloads</a>
+                                        <a class="dropdown-item" href="My Wish List.html"><i
+                                                class="fa-solid fa-heart color_Gray "></i> &nbsp; Wish List (0)</a>
+                                        <a class="dropdown-item " href="Account Logout.html"><i
+                                                class="fa-solid fa-lock color_Gray bg-white"></i> &nbsp; Logout</a>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-2   align_items_center text-center">
+                                <div class="btn-group ">
+                                    <button class="btn text-white " type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="text-white" href="#"><i
+                                                class="fa-solid fa-cart-plus color_yellowhover"></i></a>
+                                    </button>
+                                    <ul class="dropdown-menu mt-1" aria-labelledby="dropdownMenuButton"
+                                        style="width: 300px; height: 60px; border-top: 4px solid rgb(196, 168, 13);">
+                                        <span class="color_Gray"> <a href="#" class="text-black"> &nbsp; Your shopping
+                                                cart is empty!</a></span>
+
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- login and cart icon -->
+                </div>
+                
             </div>
-        </div>
 
+        </section>
+        <!-- large display currency and language and logo icon -->
+        <!-- Large  display menu dropdown -->
+        <section>
+            <div class="col text-center backcolor_black border_bottom p-1 d-none d-lg-block d-xl-block">
+                <div class="btn-group">
+                    <button class="btn color_white dropdown-toggle textblack_backwhitehover border_radius  "
+                        type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        AZULEJO
+                    </button>
+                    <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton"
+                        style="width:950px; height: 250px; border-top: 3px solid rgb(226, 181, 65);">
+                        <div class="row text-center mt-3">
+                            <div class="col-3">
+                                <h5 class=""><a href="azulejo.html" class="text-black border_bottom ">PETUNTSE</a></h5>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">T Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Paint</a></li>
+                            </div>
+                            <div class="col-3 float_start">
+                                <h5 class=""><a href="azulejo.html" class="text-black border_bottom ">PETUNTSE</a></h5>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">T Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Paint</a></li>
+                            </div>
+                            <div class="col-3 float_start">
+                                <h5 class=""><a href="azulejo.html" class="text-black border_bottom ">PETUNTSE</a></h5>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">T Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Paint</a></li>
+                            </div>
+                            <div class="col-3 float_start">
+                                <h5 class=""><a href="azulejo.html" class="text-black border_bottom ">PETUNTSE</a></h5>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">T Shirt</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Paint</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button class="btn color_white dropdown-toggle textblack_backwhitehover border_radius" type="button"
+                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" href="pottery.html">
+                        POTTERY
+                    </button>
+                    <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton"
+                        style="width: 350px; height: 200px; border-top: 3px solid rgb(226, 181, 65);">
+                        <div class="row text-center mt-3">
+                            <div class="col-6">
+                                <h5 class="text-center"><a href="pottery.html"
+                                        class="text-black border_bottom ">VEGTABLES</a></h5>
+                                <li><a href="#" class="color_Gray color_blackhover">Vinogel</a></li>
+                                <li><a href="#" class="color_Gray color_blackhover">Cenosphere</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Fruits</a></li>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-center"><a href="pottery.html"
+                                        class="text-black border_bottom ">VEGTABLES</a></h5>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Vinogel</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Cenosphere</a></li>
+                                <li><a href="#" class="m-3 color_Gray color_blackhover">Fruits</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button class="btn color_white dropdown-toggle textblack_backwhitehover border_radius" type="button"
+                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        CAMEO
+                    </button>
+                    <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton"
+                        style="width: 200px; border-top: 3px solid rgb(226, 181, 65);">
+                        <li><a href="Lumicera azulejo.html" class="m-3 color_Gray color_blackhover">Lumlcera</a></li>
+
+                    </ul>
+                </div>
+                <div class="btn textblack_backwhitehover border_radius">
+                    <span><a href="Pewter briquetage.html"
+                            class="color_white textblack_backwhitehover">PEWTER</a></span>
+                </div>
+                <div class="btn-group">
+                    <button class="btn color_white dropdown-toggle textblack_backwhitehover border_radius" type="button"
+                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        MORE
+                    </button>
+                    <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton"
+                        style="width: 200px; border-top: 3px solid rgb(226, 181, 65);">
+                        <!-- <h5 class="text-center"><a href="#" class="text-black border_bottom ">VEGT</a></h5> -->
+                        <li><a href="Latest Blog.html" class="m-3 color_Gray color_blackhover">Blogs</a></li>
+                        <li><a href="cloth jacket.html" class="m-3 color_Gray color_blackhover">Jacket</a></li>
+                        <li><a href="cl" class="m-3 color_Gray color_blackhover">Clothes</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Large  display menu dropdown -->
     </section>
-    <!-- menu Dropdown large display -->
+    <!-- navbar -->
     <section class="backcolor_gray">
         <div class="container p-3 font_size_13">
             <div class="row ">
