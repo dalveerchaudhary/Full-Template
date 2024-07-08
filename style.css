@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;  
+}
+
+
+
+/* Menu Dropdown */
+
+/* Menu Dropdown */
+
+/* Image Section */
+#ttcmsbanner .ttbanner a {
+    position: relative;
+    display: inline-block;
+}
+
+#ttcmsbanner .ttbanner a:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20%;
+    z-index: 1;
+    height: 100%;
+    opacity: 0;
+    background: rgba(255, 255, 255, .15);
+    content: '';
+    transform: translateX(-50%);
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+}
+
+#ttcmsbanner .ttbanner a:hover:before {
+    width: 100%;
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+#ttcmsbanner .ttbanner a:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 20%;
+    opacity: 0;
+    background: rgba(255, 255, 255, .15);
+    content: '';
+    transform: translateY(-50%);
+    transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+}
+
+#ttcmsbanner .ttbanner a:hover:after {
+    height: 100%;
+    opacity: 1;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/* Image Section */
+
+/* Product card icon */
+.contain {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    transition: 1.0s;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.contain:hover .overlay {
+    opacity: 1;
+}
+
+.icolor {
+    padding: 13px;
+    margin: 2px;
+    border-radius: 44px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.icolor:hover {
+    background-color: #f5d012;
+}
+
+/* Product card icon */
+
+/* Slider oner Detail */
+.oner_image,
+.pimg {
+    display: inline-block;
+    float: none;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+    /* border: 6px solid #fff; */
+}
+
+/* Slider oner Detail */
+
+/* brand name slider */
+@keyframes slides {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 30px 0px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logo_items {
+    display: inline-block;
+    animation: 55s slides linear;
+}
+
+.logos:hover .logo_items {
+    animation-play-state: paused;
+}
+
+.logo_items img {
+    height: 130px;
+}
+
+/* brand name slider */
+
+/* subscribe */
+.subscribe_input {
+    width: 270px;
+    height: 45px;
+    border-radius: 44px;
+}
+
+.subscribe_button {
+    width: 122px;
+    border-radius: 44px;
+    padding: 8px;
+    height: 45px;
+    margin-left: -50px;
+}
+/* subscribe */
+/* footer */
+.footer-column {
+    display: grid;
+    text-align: left;
+    font-size: 15px;
+}
+
+.footer-icon,
+.social-icon {
+    padding-bottom: 14px;
+
+}
+
+.social-icon {
+    padding: 12px;
+}
+
+/* footer */
+
+
