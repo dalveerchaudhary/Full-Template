@@ -783,22 +783,28 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae maxime odio expedita deleniti
                         magni eos dicta repellat quisquam nemo labore!</p>
                         <button class="backcolor_black color_white p-2 border_radius textblack_backyellowhover" style="width: 112px; height: 40px;">Continue</button>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 p-4 border_2px_gray">
-                    <h3>Returning Customer</h3>
-                    <span>I am a returning customer</span>
-                    <form>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 p-4 border_2px_gray">
+                        <h3>Returning Customer</h3>
+                        <span>I am a returning customer</span>
+                        
+                        <form onsubmit="return loginForm()">
                         <div class="mb-3 mt-2">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" placeholder="Your email address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <label for="lemail" class="form-label">Email address</label>
+                          <input type="lemail" class="form-control" placeholder="Your email address" id="lemail" name="email">
+                          <span id="lemail-error" class="error-message"></span>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+                          <label for="lpassword" class="form-label">Password</label>
+                          <input type="password" class="form-control" placeholder="Password" name="password" id="lpassword">
+                          <span id="lpassword-error" class="error-message"></span>
                         </div>
                         <a class="text-black" href="forgot password.html">Forgotten  Password</a> <br>
-                        <button type="login" class="backcolor_black color_white border_radius mt-2 textblack_backyellowhover border-0" style="width: 80px; height: 40px; ">Login</button>
-                      </form>
+                        <!-- <button type="login" class="backcolor_black color_white border_radius mt-2 textblack_backyellowhover border-0" style="width: 80px; height: 40px; ">Login</button> -->
+                        <input style="width: 80px; height: 40px; " class="backcolor_black color_white border_radius mt-2 p-2 textblack_backyellowhover border-0" type="submit" value="Send" name="Submit" />
+
+                   
+                    </form>
                 </div>
 
             </div>

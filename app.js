@@ -6,7 +6,6 @@ function change_image(image) {
 }
 document.addEventListener("DOMContentLoaded", function (event) {
 });
-
 // form validation
 function validateForm() {
     console.log('valitionfunction call');
@@ -14,7 +13,7 @@ function validateForm() {
     const email = document.getElementById("email").value;
     const mobile = document.getElementById("mobile").value;
     const password = document.getElementById("password").value;
-    const subject = document.getElementById("subscribe").value;
+    const confirmpassword = document.getElementById("confirmpassword").value;
     const agree = document.getElementById("agree").checked;
 
     const nameError = document.getElementById(
@@ -23,24 +22,24 @@ function validateForm() {
     const emailError = document.getElementById(
         "email-error"
     );
-    const addressError = document.getElementById(
+    const mobileError = document.getElementById(
         "mobile-error"
     );
     const passwordError = document.getElementById(
         "password-error"
     );
-    const subscribeError = document.getElementById(
-        "subscribe-error"
+    const confirmpasswordError = document.getElementById(
+        "confirmpassword-error"
     );
     const agreeError = document.getElementById(
         "agree-error"
     );
 
     nameError.textContent = "";
-    mobileError.textContent = "";
     emailError.textContent = "";
+    mobileError.textContent = "";
     passwordError.textContent = "";
-    subscribeError.textContent = "";
+    confirmpasswordError.textContent = "";
     agreeError.textContent = "";
 
     let isValid = true;
@@ -51,27 +50,26 @@ function validateForm() {
         isValid = false;
     }
 
-    if (mobile === "" .Number(0,1,2,3,4,5,6,7,8,9)) {
-        mobileError.textContent =
-            "Please enter your number.";
-        isValid = false;
-    }
-
     if (email === "" || !email.includes("@.")) {
         emailError.textContent =
             "Please enter a valid email address.";
         isValid = false;
     }
-
-    if (password === "" || password.length < 6) {
-        passwordError.textContent =
-            "Please enter a password with at least 6 characters.";
+    if (mobile === "" || mobile.length<10 || mobile>10) {
+        mobileError.textContent =
+            "Please enter your number.";
         isValid = false;
     }
 
-    if (subscribe === "") {
-        subscribeError.textContent =
-            "Please select Yes and No";
+    if (password === "" || password.length < 8) {
+        passwordError.textContent =
+            "Please enter a password with at least 8 characters.";
+        isValid = false;
+    }
+
+    if (confirmpassword === "" || password.length < 8) {
+        confirmpassword.textContent =
+            "Please enter same password with at least 8 characters";
         isValid = false;
     }
 
@@ -82,4 +80,36 @@ function validateForm() {
     }
 
     return isValid;
+}
+
+function loginForm(){
+    console.log('valitionfunction call');
+    const lemail = document.getElementById("lemail").value;
+    const lpassword = document.getElementById("lpassword").value;
+
+
+    const lemailError = document.getElementById(
+        "lemail-error"
+    );
+    const lpasswordError = document.getElementById(
+        "lpassword-error"
+    );
+
+
+    lemailError.textContent = "";
+    lpasswordError.textContent = "";
+
+    let isValid = true;
+
+    if (lemail === "" || !lemail.includes("@.")) {
+        lemailError.textContent =
+            "Please enter a valid email address.";
+        isValid = false;
+    }
+    if (lpassword === "" || lpassword.length < 8) {
+        lpasswordError.textContent =
+            "Please enter a password with at least 8 characters.";
+        isValid = false;
+    }
+
 }
